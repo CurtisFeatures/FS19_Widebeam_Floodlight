@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_floodLightWB</name>
+        <image>store_floodLight.png</image>
+        <functions>
+            <function>$l10n_function_floodLightWB</function>
+        </functions>
+        <price>2000</price>
+        <dailyUpkeep>10</dailyUpkeep>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+        <vertexBufferMemoryUsage>126464</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>13854</indexBufferMemoryUsage>
+        <textureMemoryUsage>4331024</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <placeableType>placeable</placeableType>
+    <filename>floodLight.i3d</filename>
+    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true"/>
+
+    <clearAreas>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20" >
+        <levelAreas>
+        </levelAreas>
+    </leveling>
+
+    <dayNightObjects>
+        <dayNightObject node="0|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="0|0|1" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>    
+
+</placeable>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="44">
+    <author>CurtisFeatures</author>
+    <version>1.0</version>
+    <title>    
+        <en>Wide Beam Flood Light</en>
+        <de>Breitstrahl-Flutlicht</de>
+    </title>
+    <description>
+        <en><![CDATA[This Mod contains 1 floodlight that turn on/off automatically. It has a beam angle of 150 degree and throw distance of 200m.
+
+Floodlight:
+Price: £2000
+Daily upkeep: £10/day
+]]>
+        </en>
+        <de><![CDATA[Dieser Mod enthält 1 Flutlicht, das sich automatisch ein- und ausschaltet. Es hat einen Abstrahlwinkel von 150 Grad und eine Wurfweite von 200m.
+
+Flutlicht:
+Preis: 2.000€
+Tägliche Kosten: 10€/Tag
+
+]]>
+        </de>
+
+    </description>
+    <iconFilename>icon_lightsSet.png</iconFilename>
+    <multiplayer supported="true"/>
+
+    <l10n>
+        
+        <text name="shopItem_floodLightWB"> <en>Floodlight - Wide Beam</en> <de>Flutlicht - Breitstrahl</de> </text>
+        <text name="function_floodLightWB"> <en>This is a wide beam floodlight for your farm.</en> <de>Dies ist ein Flutlichtscheinwerfer für Ihre Farm.</de> </text>
+    </l10n>
+
+    <storeItems>    
+        <storeItem xmlFilename="floodLight.xml"/>
+        
+    </storeItems>
+    
+</modDesc>
